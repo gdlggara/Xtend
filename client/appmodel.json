@@ -3,22 +3,16 @@
     "type": "object",
     "comment": "",
     "properties": {
-      "action1": {
+      "afs": {
         "type": "action"
       },
-      "action2": {
+      "boss": {
         "type": "action"
       },
-      "action3": {
+      "carrie": {
         "type": "action"
       },
-      "action4": {
-        "type": "action"
-      },
-      "action5": {
-        "type": "action"
-      },
-      "action6": {
+      "xtend": {
         "type": "action"
       }
     }
