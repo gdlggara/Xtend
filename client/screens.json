@@ -47,6 +47,12 @@
       "name": "afs",
       "folder": true,
       "screens": []
+    },
+    {
+      "id": "afs",
+      "name": "afs",
+      "folder": true,
+      "screens": []
     }
   ],
   "sourceAppId": "_blank",
