@@ -12,7 +12,7 @@
       "update": {
         "type": "none"
       },
-      "selector": "#routings",
+      "selector": "#routings_listbox",
       "control": "select"
     },
     "serialnumberlist": {
