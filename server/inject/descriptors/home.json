@@ -18,7 +18,9 @@
       "control": "action.link"
     },
     "xtend": {
-      "type": "action"
+      "type": "action",
+      "selector": "a[href=\"/Xtend/home/index\"]",
+      "control": "action.link"
     },
     "isHome": {
       "type": "identifier",
