@@ -46,10 +46,19 @@
         </div>
     </ion-header-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <div data-comp-id="div.2" ng-repeat="item in data.serialnumberlist">
+        <div class=" card" data-comp-id="div.2"
+            ng-repeat="item in data.serialnumberlist">
             <div class="row" data-comp-id="row.2">
                 <div class="col" data-comp-id="column.6">
-                    <div data-comp-id="text.1">Some text</div>
+                    <div data-comp-id="text.1" ng-bind="item.partnumber">Some text</div>
+                </div>
+                <div class="col" data-comp-id="column.7">
+                    <div data-comp-id="text.2" ng-bind="item.batchqty">Some text</div>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.3">
+                <div class="col" data-comp-id="column.8">
+                    <div data-comp-id="text.3" ng-bind="item.parentcodedescription">Some text</div>
                 </div>
             </div>
         </div>
