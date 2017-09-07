@@ -25,6 +25,9 @@
       },
       "search": {
         "type": "action"
+      },
+      "routinglist": {
+        "type": "select"
       }
     },
     "comment": "filterandsort"
