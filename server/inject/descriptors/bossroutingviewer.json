@@ -11,7 +11,9 @@
       "type": "select",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "#routings",
+      "control": "select"
     },
     "serialnumberlist": {
       "type": "array",
