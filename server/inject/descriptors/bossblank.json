@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "isbossblank": {
+      "type": "identifier",
+      "selector": ".xtend-admin",
+      "control": "action.link"
+    }
+  },
+  "connect": []
+}
