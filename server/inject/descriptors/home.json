@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "afs": {
+      "type": "action"
+    },
+    "boss": {
+      "type": "action"
+    },
+    "carrie": {
+      "type": "action"
+    },
+    "xtend": {
+      "type": "action"
+    }
+  },
+  "connect": []
+}
