@@ -21,5 +21,14 @@
       "selectContains": "Xtend Framework"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isHome"
+      ],
+      "screens": [
+        "home"
+      ]
+    }
+  ]
 }
