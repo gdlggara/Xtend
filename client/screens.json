@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "xtend",
-  "startScreen": "app.blank",
+  "startScreen": "app.home",
   "screens": [
     {
       "id": "blank",
