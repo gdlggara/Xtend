@@ -42,7 +42,10 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selectIndex": 12,
+            "selector": "td",
+            "control": "property.innerText"
           }
         }
       },
