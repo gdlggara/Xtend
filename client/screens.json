@@ -27,6 +27,13 @@
       "sourceScreenId": "app.home.homeclassic",
       "sourceAppId": "universaltemplates",
       "model": "home"
+    },
+    {
+      "id": "bossroutingviewer",
+      "name": "bossroutingviewer",
+      "sourceScreenId": "app.filterandsort",
+      "sourceAppId": "FilterAndSort",
+      "model": "bossroutingviewer"
     }
   ],
   "sourceAppId": "_blank",

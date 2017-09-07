@@ -22,5 +22,17 @@
         "type": "action"
       }
     }
+  },
+  "bossroutingviewer": {
+    "type": "object",
+    "properties": {
+      "searchstring": {
+        "type": "string"
+      },
+      "search": {
+        "type": "action"
+      }
+    },
+    "comment": "filterandsort"
   }
 }
