@@ -41,6 +41,12 @@
           "model": "bossroutingviewer"
         }
       ]
+    },
+    {
+      "id": "afs",
+      "name": "afs",
+      "folder": true,
+      "screens": []
     }
   ],
   "sourceAppId": "_blank",
