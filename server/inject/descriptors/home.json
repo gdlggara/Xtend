@@ -13,7 +13,9 @@
       "control": "action.link"
     },
     "carrie": {
-      "type": "action"
+      "type": "action",
+      "selector": "a[href=\"/Xtend/Carrie\"]",
+      "control": "action.link"
     },
     "xtend": {
       "type": "action"
