@@ -8,7 +8,9 @@
       "control": "action.link"
     },
     "boss": {
-      "type": "action"
+      "type": "action",
+      "selector": "a[href=\"/Xtend/BOSS\"]",
+      "control": "action.link"
     },
     "carrie": {
       "type": "action"
