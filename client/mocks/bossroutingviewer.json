@@ -432,5 +432,17 @@
       "price": "9",
       "image": "https://images-na.ssl-images-amazon.com/images/I/41obYrTYMgL._AC_US160_.jpg"
     }
+  ],
+  "serialnumberlist": [
+    {
+      "partnumber": "JDI-E006654-00A00-A",
+      "parentcodedescription": "SUB COLLAR FOAM LEFT",
+      "batchqty": "10"
+    },
+    {
+      "partnumber": "JDI-E006623-00A12-A",
+      "parentcodedescription": "SUB COLLAR FOAM RIGHT",
+      "batchqty": "10"
+    }
   ]
 }
