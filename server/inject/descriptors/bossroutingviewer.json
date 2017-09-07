@@ -52,7 +52,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": ".k-grid-content > table"
+      "selectorAll": ".k-grid-content > table tr[role=\"row\"]"
     },
     "isroutingviewer": {
       "type": "identifier",
