@@ -9,7 +9,7 @@
     },
     "routingviewerlink": {
       "type": "action",
-      "selector": "a[href=\"/Xtend/BOSS/display/viewer\"]",
+      "selector": ".hide-horizontal-scrollbar",
       "control": "action.link"
     }
   },
