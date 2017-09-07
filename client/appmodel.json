@@ -27,7 +27,10 @@
         "type": "action"
       },
       "routinglist": {
-        "type": "select"
+        "type": "select",
+        "update": {
+          "type": "none"
+        }
       }
     },
     "comment": "filterandsort"
