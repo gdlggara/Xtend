@@ -31,6 +31,23 @@
         "update": {
           "type": "none"
         }
+      },
+      "serialnumberlist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "partnumber": {
+              "type": "string"
+            },
+            "parentcodedescription": {
+              "type": "string"
+            },
+            "batchqty": {
+              "type": "string"
+            }
+          }
+        }
       }
     },
     "comment": "filterandsort"

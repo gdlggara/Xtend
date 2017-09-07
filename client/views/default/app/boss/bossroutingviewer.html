@@ -46,26 +46,10 @@
         </div>
     </ion-header-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <div data-comp-id="div.2"
-            ng-repeat="item in data.products | orderBy:sortFunc:isDescending | filter:customSearch"
-            style="border-bottom: 1px solid rgb(238, 238, 238); color: rgb(134, 134, 134); margin: 0px;">
+        <div data-comp-id="div.2">
             <div class="row" data-comp-id="row.2">
-                <div class="col col-33" data-comp-id="column.6" style="margin: 0% 0% 0% 2%;"><img data-comp-id="image.5" ng-src="{{item.image}}" style="width: 80px;"></div>
-                <div class="col" data-comp-id="column.7" style="margin: -5px 0px 0px -15px;">
-                    <div class="row" data-comp-id="row.3">
-                        <div class="col" data-comp-id="column.8">
-                            <div data-comp-id="text.1" ng-bind="item.name"
-                                style="white-space: normal; color: rgb(51, 51, 51); line-height: 18px; font-size: 16px;"></div>
-                        </div>
-                    </div>
-                    <div class="row" data-comp-id="row.4" style="margin: -10px 0px;">
-                        <div class="col" data-comp-id="column.9">
-                            <div data-comp-id="text.2" ng-if="item.price"
-                                style="font-size: 14px; color: rgb(161, 161, 161); margin: 0px 0px 0px 4px; float: left;">$</div>
-                            <div data-comp-id="text.3" ng-bind="item.price"
-                                style=" float: left; font-size: 14px; color: rgb(161, 161, 161); margin: 0px 0px 0px 4px;">123</div>
-                        </div>
-                    </div>
+                <div class="col" data-comp-id="column.6">
+                    <div data-comp-id="text.1">Some text</div>
                 </div>
             </div>
         </div>
