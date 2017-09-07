@@ -1,0 +1,48 @@
+{
+  "type": "object",
+  "properties": {
+    "searchstring": {
+      "type": "string"
+    },
+    "search": {
+      "type": "action"
+    },
+    "routinglist": {
+      "type": "select",
+      "update": {
+        "type": "none"
+      }
+    },
+    "serialnumberlist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "partnumber": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "parentcodedescription": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "batchqty": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      }
+    }
+  },
+  "comment": "filterandsort",
+  "connect": []
+}
