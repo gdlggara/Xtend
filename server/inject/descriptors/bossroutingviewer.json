@@ -26,7 +26,8 @@
               "type": "none"
             },
             "selector": "td",
-            "selectIndex": 1
+            "selectIndex": 1,
+            "control": "text"
           },
           "parentcodedescription": {
             "type": "string",
