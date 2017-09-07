@@ -5,7 +5,8 @@
     "afs": {
       "type": "action",
       "selector": "a[href]",
-      "control": "action.link"
+      "control": "action.link",
+      "selectContains": "AFS"
     },
     "boss": {
       "type": "action"
