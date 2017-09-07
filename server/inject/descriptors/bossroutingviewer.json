@@ -62,5 +62,14 @@
     }
   },
   "comment": "filterandsort",
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isroutingviewer"
+      ],
+      "screens": [
+        "boss/bossroutingviewer"
+      ]
+    }
+  ]
 }
