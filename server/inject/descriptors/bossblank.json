@@ -6,7 +6,19 @@
       "selector": "h1",
       "control": "exists",
       "selectContains": "Home"
+    },
+    "routingviewerlink": {
+      "type": "action",
+      "selector": "a[href=\"/Xtend/BOSS/display/viewer\"]",
+      "control": "action.link"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isbossblank"
+      ],
+      "action": "routingviewerlink"
+    }
+  ]
 }
