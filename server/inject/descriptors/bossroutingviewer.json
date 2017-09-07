@@ -27,7 +27,7 @@
             },
             "selector": "td",
             "selectIndex": 1,
-            "control": "text"
+            "control": "property.innerText"
           },
           "parentcodedescription": {
             "type": "string",
