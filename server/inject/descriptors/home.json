@@ -3,7 +3,9 @@
   "comment": "",
   "properties": {
     "afs": {
-      "type": "action"
+      "type": "action",
+      "selector": "a[href]",
+      "control": "action.link"
     },
     "boss": {
       "type": "action"
