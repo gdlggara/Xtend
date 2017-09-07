@@ -29,17 +29,18 @@
       "model": "home"
     },
     {
-      "id": "bossroutingviewer",
-      "name": "bossroutingviewer",
-      "sourceScreenId": "app.filterandsort",
-      "sourceAppId": "FilterAndSort",
-      "model": "bossroutingviewer"
-    },
-    {
       "id": "boss",
       "name": "boss",
       "folder": true,
-      "screens": []
+      "screens": [
+        {
+          "id": "bossroutingviewer",
+          "name": "bossroutingviewer",
+          "sourceScreenId": "app.filterandsort",
+          "sourceAppId": "FilterAndSort",
+          "model": "bossroutingviewer"
+        }
+      ]
     }
   ],
   "sourceAppId": "_blank",

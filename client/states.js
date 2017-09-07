@@ -42,12 +42,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.bossroutingviewer', {
+    }).state('app.boss/bossroutingviewer', {
         views: {
             app: {
-                controller: 'app_bossroutingviewer',
+                controller: 'app_boss_bossroutingviewer',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.bossroutingviewer');
+                    return app.templateProvider('app.boss.bossroutingviewer');
                 }
             }
         }

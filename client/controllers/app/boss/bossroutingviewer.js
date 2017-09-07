@@ -1,5 +1,5 @@
-angular.module('app').controller('app_bossroutingviewer', app_bossroutingviewer);
-function app_bossroutingviewer($scope, app) {
+angular.module('app').controller('app_boss_bossroutingviewer', app_boss_bossroutingviewer);
+function app_boss_bossroutingviewer($scope, app) {
     'use strict';
     app.init($scope);
     $scope.isDescending = false;
