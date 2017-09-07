@@ -4,9 +4,8 @@
   "properties": {
     "afs": {
       "type": "action",
-      "selector": "a[href]",
-      "control": "action.link",
-      "selectContains": "AFS"
+      "selector": "a[href=\"/Xtend/AFS\"]",
+      "control": "action.link"
     },
     "boss": {
       "type": "action"
