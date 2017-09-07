@@ -15,49 +15,21 @@
         <!--Search box-->
         <div class=" card" data-comp-id="div.1" style="">
             <select-list data-comp-id="selectList.1" ng-model="data.routinglist">Select Routing</select-list>
-            <div class="row stable-bg card" data-comp-id="row.1" style="padding: 0px;">
-                <div class="col col-60" data-comp-id="column.1">
-                    <label class="item  item-input item-select-icon positive-icon"
-                        data-comp-id="selectInput.1">
-                        <select ng-model="sortBy"
-                            style="border-color: rgb(0, 153, 0); font-size: 16px; margin: 2px;">
-                            <option ng-show="false" value="">Sort by</option>
-                            <option value="name">Name</option>
-                            <option value="price">Price</option>
-                        </select>
-                    </label>
-                </div>
-                <div class="col col-20" data-comp-id="column.2" ng-if="!changeIc"><img data-comp-id="image.1" data-img="" ng-click="changeIcon()"
-                    ng-src="images/boss/bossroutingviewer/SortUpGlyph_Active.png"
-                    style="width: 36px; height: 36px; margin: 8px;"></div>
-                <div class="col col-20" data-comp-id="column.3" ng-if="changeIc">
-                    <img data-comp-id="image.2" data-img=""
-                        ng-src="images/boss/bossroutingviewer/SortUpGlyph_Deactive.png"
-                        style="width: 36px; height: 36px; margin: 8px;"></div>
-                <div class="col col-20" data-comp-id="column.4" ng-if="changeIc">
-                    <img data-comp-id="image.3" data-img="" ng-click="changeIcon()"
-                        ng-src="images/boss/bossroutingviewer/SortDownGlyph_Active.png"
-                        style="width: 36px; height: 36px; margin: 8px;"></div>
-                <div class="col col-20 " data-comp-id="column.5" ng-if="!changeIc"><img data-comp-id="image.4" data-img=""
-                    ng-src="images/boss/bossroutingviewer/SortDownGlyph_Deactive.png"
-                    style="width: 36px; height: 36px; margin: 8px;"></div>
-            </div>
         </div>
-        <!--Search box-->
     </ion-header-bar>
     <ion-content data-comp-id="ionic-content.1">
         <div class=" card" data-comp-id="div.2"
             ng-repeat="item in data.serialnumberlist">
-            <div class="row" data-comp-id="row.2">
-                <div class="col" data-comp-id="column.6">
+            <div class="row" data-comp-id="row.1">
+                <div class="col" data-comp-id="column.1">
                     <div data-comp-id="text.1" ng-bind="item.partnumber">Some text</div>
                 </div>
-                <div class="col" data-comp-id="column.7">
+                <div class="col" data-comp-id="column.2">
                     <div data-comp-id="text.2" ng-bind="item.batchqty">Some text</div>
                 </div>
             </div>
-            <div class="row" data-comp-id="row.3">
-                <div class="col" data-comp-id="column.8">
+            <div class="row" data-comp-id="row.2">
+                <div class="col" data-comp-id="column.3">
                     <div data-comp-id="text.3" ng-bind="item.parentcodedescription">Some text</div>
                 </div>
             </div>
