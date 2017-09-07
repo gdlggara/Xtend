@@ -3,8 +3,9 @@
   "properties": {
     "isbossblank": {
       "type": "identifier",
-      "selector": ".xtend-admin",
-      "control": "action.link"
+      "selector": "h1",
+      "control": "exists",
+      "selectContains": "Home"
     }
   },
   "connect": []
