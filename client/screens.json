@@ -34,6 +34,12 @@
       "sourceScreenId": "app.filterandsort",
       "sourceAppId": "FilterAndSort",
       "model": "bossroutingviewer"
+    },
+    {
+      "id": "boss",
+      "name": "boss",
+      "folder": true,
+      "screens": []
     }
   ],
   "sourceAppId": "_blank",
