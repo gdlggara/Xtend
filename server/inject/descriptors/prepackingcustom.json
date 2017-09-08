@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "comment": "Forms",
+  "properties": {
+    "name": {
+      "type": "string",
+      "label": "Name",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    },
+    "submit": {
+      "type": "action"
+    }
+  },
+  "connect": []
+}
