@@ -13,7 +13,6 @@
       "match": [
         "islogin"
       ],
-      "event": "login",
       "screens": [
         "login"
       ]
