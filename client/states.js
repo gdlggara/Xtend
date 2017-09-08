@@ -42,6 +42,15 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.afs/barcode', {
+        views: {
+            app: {
+                controller: 'app_afs_barcode',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.afs.barcode');
+                }
+            }
+        }
     }).state('app.login', {
         views: {
             app: {

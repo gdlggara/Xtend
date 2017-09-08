@@ -46,7 +46,14 @@
       "id": "afs",
       "name": "afs",
       "folder": true,
-      "screens": []
+      "screens": [
+        {
+          "id": "barcode",
+          "name": "Barcode",
+          "sourceScreenId": "app.barcode",
+          "sourceAppId": "Barcode"
+        }
+      ]
     },
     {
       "id": "login",
