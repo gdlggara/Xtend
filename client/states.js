@@ -42,6 +42,15 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.afs/formsmallclassic', {
+        views: {
+            app: {
+                controller: 'app_afs_formsmallclassic',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.afs.formsmallclassic');
+                }
+            }
+        }
     }).state('app.login', {
         views: {
             app: {
