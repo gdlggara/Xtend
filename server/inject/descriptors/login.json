@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "comment": "Login",
+  "properties": {
+    "islogin": {
+      "type": "identifier",
+      "selector": "body",
+      "control": "exists"
+    }
+  },
+  "connect": []
+}
