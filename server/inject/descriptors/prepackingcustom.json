@@ -10,7 +10,9 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "#inspectionGroupNumber",
+      "control": "text"
     },
     "submit": {
       "type": "action"
