@@ -47,6 +47,13 @@
       "name": "afs",
       "folder": true,
       "screens": []
+    },
+    {
+      "id": "login",
+      "name": "login",
+      "sourceScreenId": "app.login.logincool",
+      "sourceAppId": "universaltemplates",
+      "model": "login"
     }
   ],
   "sourceAppId": "_blank",
