@@ -16,7 +16,21 @@
     },
     "submit": {
       "type": "action"
+    },
+    "isprepacking": {
+      "type": "identifier",
+      "selector": "#inspectionGroupNumber",
+      "control": "text"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isprepacking"
+      ],
+      "screens": [
+        "afs/prepackingcustom"
+      ]
+    }
+  ]
 }
