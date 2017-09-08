@@ -46,15 +46,7 @@
       "id": "afs",
       "name": "afs",
       "folder": true,
-      "screens": [
-        {
-          "id": "formsmallclassic",
-          "name": "FormSmall-Classic",
-          "sourceScreenId": "app.formsmall.formsmallclassic",
-          "sourceAppId": "universaltemplates",
-          "model": "formsmallclassic"
-        }
-      ]
+      "screens": []
     },
     {
       "id": "login",
