@@ -42,6 +42,15 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.afs/prepackingcustom', {
+        views: {
+            app: {
+                controller: 'app_afs_prepackingcustom',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.afs.prepackingcustom');
+                }
+            }
+        }
     }).state('app.login', {
         views: {
             app: {
